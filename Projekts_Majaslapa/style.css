@@ -1,0 +1,21 @@
+.body{
+    background-color: #f2f2f2;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.text-box {
+    background-color: #d9d9d9;
+    padding: 30px;
+    height: 100%;
+}
+
+.hrdivide{
+    border: none;
+    height: 4px;
+    background-color: black;
+    margin: 40px 0;
+}
