@@ -1,5 +1,6 @@
 .body{
     background-color: #f2f2f2;
+    
 }
 
 .carousel-item img {
@@ -24,6 +25,45 @@
     padding-left: 10px;
 }
 
-.my-4{
-    height: 2px;
+
+
+.sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .images{
+    display: flex;
+  gap: 20px;
+  }
+
+  .images img{
+    width: 50%;
+  }
+
+ footer {
+ background-color: #222;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
+
+.footer-right {
+  display: flex;
+  gap: 15px;
+}
+
+.social-btn img {
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+}
+
+.social-btn img:hover {
+  transform: scale(1.1);
+}
+  
